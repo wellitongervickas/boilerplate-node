@@ -17,12 +17,15 @@
       "@models/*": ["./src/models"],
       "@controllers/*": ["./src/confcontrollersig"],
       "@config/*": ["./src/config"],
-      "@views/*": ["./src/views"],
+      "@views/*": ["./src/views"]
     },
     "esModuleInterop": true,                   
     "experimentalDecorators": true,      
     "emitDecoratorMetadata": true,     
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
