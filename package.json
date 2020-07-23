@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellitongervickas/boilerplate-node.git"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify ./src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellitongervickas/boilerplate-node/issues"
+  },
+  "homepage": "https://github.com/wellitongervickas/boilerplate-node#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.54",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
